@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: azar-phish-telegram
+    env: python
+    buildCommand: ""
+    startCommand: "python main.py"
